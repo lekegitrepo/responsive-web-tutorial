@@ -1,7 +1,50 @@
 /* global rules */
 body{
-  border-top: 5px solid #e56038;
-  background: #ebe8de;
-  color: #333333;
-  font-family: 'Open Sans', sans-serif;
+    border-top: 5px solid #e56038;
+    background: #ebe8de;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding: 7px;
+    outline: 0;
+    border:0;
+    width:250px;
+    background: #EBE8DE;
+    border-radius:5px;
+}
+input[type=submit] {
+    width:auto;
+    padding: 5px 18px;
+    line-height:25px;
+    text-shadow:none;
+    cursor:pointer;
+    box-shadow: none;
+    background: #333333;
+    color: #fff;
+}
+p {
+    margin: 5px 0;
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color .5s ease;
+}
+strong {
+    font-weight: bold;
+}
+figcaption {
+    line-height: 25px;
+    font-size:14px;
+    width:200px;
+}
+figcaption strong {
+    border-bottom: 1px solid #D6D0C1;
+    padding-bottom:10px;
+    margin: 10px 0;
+    display:block;
 }
