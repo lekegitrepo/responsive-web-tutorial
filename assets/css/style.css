@@ -1,0 +1,7 @@
+/* global rules */
+body{
+  border-top: 5px solid #e56038;
+  background: #ebe8de;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+}
