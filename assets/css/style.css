@@ -354,4 +354,12 @@ footer .wrapper .column h4 {
 #copyright .wrapper a:hover {
     color: #fff;
 }
-
+/* MISC */
+.clear {
+    clear:both;
+}
+.hidden {
+    position:absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
