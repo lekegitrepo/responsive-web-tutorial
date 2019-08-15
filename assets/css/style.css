@@ -206,3 +206,59 @@ nav ul li a:hover {
 .thumb-screen:hover {
     opacity:0.5;
 }
+/* text_columns section */
+#text_columns article.column1, 
+#text_columns .column2 {
+    margin: 70px 0;
+    font-size:14px;
+    float:left;
+    width:450px;
+}
+#text_columns .column2 {
+    margin: 120px 0;
+}
+.row {
+    position:relative;
+    margin: 40px 0 0 50px;
+    float:right;
+    width:350px;
+}
+/* rocket and clock */
+.rocket:hover {
+    opacity:0;
+    transition: opacity 0.4s ease 0.2s;
+    animation-name: stylie-transform-keyframes;
+    animation-duration: 700ms;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transform-origin: 0 0;
+}
+.clock:hover {
+    animation-name: stylie-transform2-keyframes;
+    animation-duration: 100ms;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 0 0;
+}
+/* KEYFRAMES */
+@keyframes stylie-transform-keyframes {
+    0% {
+        transform:translateX(30px) translateY(46px) rotate(0deg) translate(-50%, -50%);
+        animation-timing-function: cubic-bezier(.25,.25,.75,.75);
+    }
+    100% {
+        transform:translateX(260px) translateY(-150px) rotate(0deg) translate(-50%, -50%);
+    }
+}
+@keyframes stylie-transform2-keyframes {
+    0% {
+        transform:translateX(40px) translateY(40px) rotate(0deg) translate(-50%, -50%);
+        animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+    100% {
+        transform:translateX(50px) translateY(40px) rotate(0deg) translate(-50%, -50%);
+    }
+}
