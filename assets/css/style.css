@@ -318,4 +318,40 @@ footer .wrapper .column h4 {
     padding: 0 0 10px 0;
     margin-bottom: 10px;
 }
+#copyright {
+    background: #1D1D1D;
+    height:70px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+#copyright .wrapper {
+    font-family: 'Open Sans', sans-serif;
+    padding-top:25px;
+    color: #5e5e5e;
+    font-size:14px;
+    position:relative;
+}
+#copyright .wrapper .social {
+    position:absolute;
+    right:0;
+    top:25px;
+}
+#copyright .wrapper .social a {
+    transition: opacity .25s ease;
+    opacity: 0.3;
+    margin-left: 12px;
+    display:block;
+    float:left;
+}
+#copyright .wrapper .social a:hover {
+    opacity: 0.7;
+}
+#copyright .wrapper a {
+    color: #ABABAB;
+}
+#copyright .wrapper a:hover {
+    color: #fff;
+}
 
