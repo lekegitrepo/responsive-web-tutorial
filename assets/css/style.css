@@ -295,4 +295,27 @@ footer .wrapper .column.midlist ul li {
 footer .wrapper .column.midlist ul li a:hover {
     color:#fff;
 }
+footer .wrapper .column.rightlist ul li {
+    width:auto;
+    margin-bottom:15px;
+}
+footer .wrapper .column.rightlist ul li a span {
+    margin-left:95px;
+    display:block;
+}
+footer .wrapper .column.rightlist ul li a img {
+    transition: border .25s ease;
+    float:left;
+    border:3px solid #444444;
+}
+footer .wrapper .column.rightlist ul li a img:hover {
+    border-color: #5e5e5e;
+}
+footer .wrapper .column h4 {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #444444;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+}
 
