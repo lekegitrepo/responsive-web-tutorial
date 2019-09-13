@@ -48,6 +48,13 @@ figcaption strong {
 	margin: 10px 0;
 	display: block;
 }
+hr
+{
+   background-color: #D6D0C1;
+   border:0;
+   height:1px;
+   margin:20px 0;
+}
 /* header section */
 #mobileMenu {
 	position: fixed;
@@ -90,6 +97,12 @@ header p {
 	font-size: 16px;
 	color: #4a463b;
 	margin-left: 132px;
+}
+nav
+{
+  position:absolute;
+  right:0;
+  bottom:0;
 }
 nav ul {
 	list-style: none;
